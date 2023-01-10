@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50em;
+    font-variant-caps: all-petite-caps;
+    background: url("328380-abstract-landscape-artwork-mountain.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    
+    
+}
+table {
+    display: grid;
+    text-align: center;
+    
+}
+
+input[type="text"] {
+    display: flex;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    background: rgb(160, 159, 161);
+    padding: 0;
+    margin: 0;
+    padding-left: 15px;
+    margin-bottom: 30px;
+    height: 2em;
+    width: 15em;
+    font-size: 25px;
+    font-variant-caps: all-petite-caps;
+
+    
+}
+
+input[type="text"]:hover{
+
+    background-color: aqua;
+}
+
+input[type="integer"] {
+
+    display: flex;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    background: rgb(160, 159, 161);
+    padding: 0;
+    margin: 0;
+    padding-left: 15px;
+    margin-bottom: 30px;
+    height: 2em;
+    width: 15em;
+    font-size: 25px;
+    font-variant-caps: all-petite-caps;
+}
+
+input[type="submit"] {
+    border: none;
+    background: rgb(31, 230, 230);
+    font-size: 30px;
+    font-variant-caps: all-petite-caps;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
